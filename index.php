@@ -477,7 +477,7 @@ function hoursandmins($time, $format = '%02d:%02d'){
 
 
 <footer class="container-fluid text-center">
-  <p>© 2019 Mellbyvader.se <br> <a href="http://weewx.com/">Powered by weeWX</a></p>
+  <p>© <?php echo date('Y', strtotime('now')); ?> Mellbyvader.se <br> <a href="http://weewx.com/">Powered by weeWX</a></p>
 </footer>
 
 </body>
